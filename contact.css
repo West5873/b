@@ -108,6 +108,29 @@ input:focus, select:focus, textarea:focus {
     display: none;
 }
 
+/* Form Layout */
+.form-container {
+    margin-top: var(--spacing-xl);
+}
+
+.form-row {
+    display: flex;
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
+}
+
+.form-col {
+    flex: 1;
+}
+
+/* Calendly Wrapper */
+.calendly-wrapper {
+    margin-bottom: var(--spacing-xl);
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
 /* Map Section */
 .map-section {
     padding: var(--spacing-xl) 0;
@@ -134,4 +157,13 @@ input:focus, select:focus, textarea:focus {
     .contact-info {
         margin-bottom: var(--spacing-lg);
     }
+   
+   .form-row {
+       flex-direction: column;
+       gap: 0;
+   }
+   
+   .form-col {
+       flex: none;
+   }
 }

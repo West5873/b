@@ -92,7 +92,21 @@
                 <div class="contact-form">
                     <h2>Send Us a Message</h2>
                     <div class="divider"></div>
+                    
+                    <!-- Calendly inline widget moved to top -->
+                    <div class="calendly-wrapper">
+                        <div class="calendly-inline-widget"
+                            data-url="https://calendly.com/77wealthgroup/15min?
+                            hide_event_type_details=1&hide_gdpr_banner=1&primary_color=243b6a"
+                            style="min-width:320px;height:700px;">
+                        </div>
+                    </div>
+                    
+                    <!-- Formspree form in 2 columns -->
+                    <div class="form-container">
                     <form id="contactForm" action="https://formspree.io/f/xnnvorrz" method="POST">
+                        <div class="form-row">
+                            <div class="form-col">
                         <div class="form-group">
                             <label for="name">Full Name*</label>
                             <input type="text" id="name" name="name" required>
@@ -110,6 +124,9 @@
                             <input type="tel" id="phone" name="phone" required>
                             <span class="error-message" id="phoneError"></span>
                         </div>
+                            </div>
+                            
+                            <div class="form-col">
                         
                         <div class="form-group">
                             <label for="service">Service of Interest</label>
@@ -131,6 +148,8 @@
                             <textarea id="message" name="message" rows="5" required></textarea>
                             <span class="error-message" id="messageError"></span>
                         </div>
+                            </div>
+                        </div>
                         
                         <div class="form-group checkbox-group">
                             <input type="checkbox" id="consent" name="consent" required>
@@ -140,18 +159,11 @@
                         
                         <button type="submit" class="btn btn-primary">Submit Message</button>
                     </form>
+                    </div>
+                    
                     <div id="formSuccess" class="form-success">
                         <h3>Thank you for contacting us!</h3>
                         <p>Your message has been received. One of our advisors will be in touch with you shortly.</p>
-                    </div>
-
-                    <!-- Calendly inline widget -->
-                    <div class="calendly-wrapper">
-                        <div class="calendly-inline-widget"
-                            data-url="https://calendly.com/77wealthgroup/15min?
-                            hide_event_type_details=1&hide_gdpr_banner=1&primary_color=243b6a"
-                            style="min-width:320px;height:700px;">
-                        </div>
                     </div>
                 </div>
             </div>
