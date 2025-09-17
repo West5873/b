@@ -137,6 +137,7 @@ input:focus, select:focus, textarea:focus {
 }
 
 /* Map Section */
+    overflow: hidden;
 .map-section {
     padding: var(--spacing-xl) 0;
     text-align: center;
