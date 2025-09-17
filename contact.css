@@ -113,6 +113,12 @@ input:focus, select:focus, textarea:focus {
     margin-top: var(--spacing-xl);
 }
 
+.form-section-heading {
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
+    color: var(--navy);
+}
+
 .form-row {
     display: flex;
     gap: var(--spacing-lg);
