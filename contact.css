@@ -131,6 +131,11 @@ input:focus, select:focus, textarea:focus {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+.calendly-inline-widget {
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+}
+
 /* Map Section */
 .map-section {
     padding: var(--spacing-xl) 0;
